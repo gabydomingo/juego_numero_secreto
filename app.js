@@ -32,7 +32,7 @@ function verificarIntento() {
 function generarNumeroRandom() {
      let numeroGenerado = Math.floor(Math.random()*numeroMaximo)+1;
     
-    if (listaNumerosSorteadositories.lenght == numeroMaximo) {
+    if (listaNumerosSorteados.length == numeroMaximo) {
         asignarTextoElemento('p','no hay mas numeros disponibles');
     } else{
         if(listaNumerosSorteados.includes(numeroGenerado)) {
